@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="stylelib.css">
+  <link rel="stylesheet" href="zoos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+<title>online-zoo</title>
+</head>
+<body>
+    <input type="checkbox" id="nav-toggle" hidden>
+    <nav class="nav fc-FF">
+        <label for="nav-toggle" class="nav-toggle" onclick></label>
+        <div class="nav-toggle__live"><a href="#">LIVE<img src="assets/menu/menu-cam.svg" alt=""></a></div>
+        <div class="nav-toggle__livenav-toggle__li-checked df jc-sb ai-c"><img src="assets/menu/Panda-wh.png"> <p>Watch live from China's  Panda Center </p></div>
+        <div class="nav-toggle__livenav-toggle__li-unchecked df ai-c"><img src="assets/menu/Panda-hov.png"></div>
+
+        <div onclick="location.href='zoos-eagle.html'" class="nav-toggle__livenav-toggle__li-checked df jc-sb ai-c"><img src="assets/Menu/Eagle-or.png"> <p>Watch The Bald Eagles Nest from West End cam</p></div>
+        <div onclick="location.href='zoos-eagle.html'" class="nav-toggle__livenav-toggle__li-unchecked df ai-c"><img src="assets/menu/Eagle-round-vi.png"></div>
+
+        <div onclick="location.href='zoos-gorilla.html'" class="nav-toggle__livenav-toggle__li-checked df jc-sb ai-c"><img src="assets/menu/Gorilla-or.png"> <p>Livestream from Gorilla Forest Corridor habitat cam</p></div>
+        <div onclick="location.href='zoos-gorilla.html'" class="nav-toggle__livenav-toggle__li-unchecked df ai-c"><img src="assets/menu/Gorilla-round-vi.png"></div>
+
+        <div onclick="location.href='zoos-lemur.html'" class="nav-toggle__livenav-toggle__li-checked df jc-sb ai-c"><img src="assets/menu/Lemur-or.png"> <p>The ring-tailed lemurs play in Madagascar, Lemuria Land</p></div>
+        <div onclick="location.href='zoos-lemur.html'" class="nav-toggle__livenav-toggle__li-unchecked df ai-c"><img src="assets/menu/Lemur-round.png"></div>
+
+        <div onclick="location.href='#'" class="nav-toggle__livenav-toggle__li-row df jc-c ai-c"><img src="assets/menu/row-down-wh.png" style="width: 15px;"></div>        
+    </nav>
+  <header class="header">
+    <div class=" wrapper m0a df jc-sb">
+      <div class="header__logo"> <a href="index.html"><img src="assets/icon/header-logo.svg"></a></div>
+      <nav class="header__nav df ai-c">
+        <div class="header__nav__navigation df tt-up fs-18 lh-27 fw-600">
+          <a href="index.html">About</a>
+          <a href="map.html">map</a>
+          <a class="hovered" href="#">Zoos</a>
+          <a href="contact.html">Contact us</a>
+          <a href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project">Design</a>
+        </div>
+        <div class="nav__social">
+          <a href="https://www.youtube.com/"><img src="assets/icon/YouTube-logo.png" alt="YouTube logo"></a>
+          <a href="https://www.instagram.com/?hl=ru"><img src="assets/icon/Instagram-logo.png" alt="Instagram logo"></a>
+          <a href="https://www.facebook.com/"><img src="assets/icon/Facebook-logo.png" alt="Facebook logo"></a>
+        </div>
+      </nav>
+    </div>    
+  </header>
+
+  <main>
+    <section class="main-page">
+      <div class=" wrapper m0a">
+        <div class="main-page__inner m0a df fd-col ai-c">
+          <div class="main-page__inner__head m0a df jc-fs ai-c">
+            <h1>Online Zoo</h1>
+            <h2>live panda cams</h2>
+            <button class="main-page__inner__head__btn"><p>donate now</p></button>            
+          </div>
+          <div class="main-page__inner__video pos-rel">
+            <iframe class=" pos-abs" width="100%" height="100%" src="https://www.youtube.com/embed/D0eqnda8dOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div> 
+        </div>     
+        </div>
+      </div>
+    </section>
+    <section class="slider wrapper m0a df fd-col ai-c">
+        <h3>more live views</h3>
+        <div class="slider__slide-block df jc-fe ai-c">
+            <div class="slider__slide-block__row"><img src="assets/left-union-violet.svg"></div>
+            <a href="#"><img src="assets/zoos-panda/cam1.jpg" alt="camera preview image"></a>
+            <a href="#"><img src="assets/zoos-panda/cam2.jpg" alt="camera preview image"></a>
+            <a href="#"><img src="assets/zoos-panda/cam3.jpg" alt="camera preview image"></a>
+            <div class="slider__slide-block__row"><img src="assets/right-union-violet.svg"></div>
+        </div>
+    </section>    
+
+    <section class="quick-donate">
+
+      <div class="wrapper m0a df jc-sb fc-FF">
+        <div class="quick-donate__text">
+          <h3>make the Bamboo Donation!</h3>
+          <p>Our process for bamboo donations first starts with a site evaluation. It is important that our team sees where the bamboo is growing, then determining if the bamboo is a species that our animals are currently eating. Thank you for your interest in donating bamboo for our pandas.</p>
+        </div>
+        <div class="quick-donate__form">
+          <h6>Quick Donate</h6>
+          <form action="#">
+            <input class="quick-donate__form__input" type="number" min="1" max="9999" placeholder="$ Donation Amount"><button class="quick-donate__form__submit" type="submit"><img src="assets/right-union.svg"></button>
+          </form>
+        </div>        
+      </div>
+    </section>
+    
+    <section class="did_you_now wrapper m0a df fd-col ai-c">
+        <div class="did_you_now__header tac">
+            <h3>did you know?</h3>
+            <p>Pandas are often seen eating in a relaxed sitting posture, with their hind legs stretched out before them. They may appear sedentary, but they are skilled tree-climbers and efficient swimmers.</p>
+        </div>
+        <div class="did_you_now__dscr">
+            <div class="did_you_now__dscr__block df fd-col fs-18 fw-400 lh-27">
+                <div class="did_you_now__dscr__block__list df jc-sb pos-rel">
+                    <ul>
+                        <li><p><span>Common name: </span> Giant Panda
+                        </p></li>
+                        <li><p><span>Scientific name: </span> Ailuropoda melanoleuca
+                        </p></li>
+                        <li><p><span>Type: </span> Herbivore
+                        </p></li>
+                        <li><p><span>Size: </span> 4 to 5 feet
+                        </p></li>
+                        <li><p><span>Diet: </span> Omnivore
+                        </p></li>
+                        <li><p><span>Habitat: </span> Forests
+                        </p></li>
+                        <li class="df ai-c"><p><span>Range: </span> Eastern Asia
+                        </p><div class="did_you_now__dscr__block__list__view df jc-c"><a href="map.html">VIEW MAP </a><svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                          </svg></div></li>
+                    </ul>                     
+                    <img src="assets/zoos-panda/small-panda.jpg" alt="small panda sleep">                  
+                </div>  
+                <p>Giant pandas are very unusual animals that eat almost exclusively bamboo, which is very low in nutrients. Because of this, they have many unique adaptations for their low-energy lifestyle. Giant pandas are solitary. They have a highly developed sense of smell that males use to avoid each other and to find females for mating in the spring. After a five-month pregnancy, females give birth to a cub or two, though they cannot care for both twins. The blind infants weigh only 5 ounces at birth and cannot crawl until they reach three months of age. They are born white, and develop their much loved coloring later. Habitat loss is the primary threat to this species. Its popularity around the world has helped the giant panda become the focus of successful conservation programs.</p>              
+            </div>                     
+        </div>        
+    </section>
+
+    <footer class="footer">
+        <div class="wrapper m0a df fd-col">
+          <div class="footer__nav df jc-sb ai-c">
+            <div class="footer__nav__logos df jc-sb">
+              <a href="index.html"><img src="assets/icon/footer-logo.svg" alt="online-zoo logo"></a>
+              <img  title="Yem Digital" src="assets/icon/footer-Yem Digital- logo.png" alt="Yem Digital logo">
+              <img title="Rolling Scopes School" src="assets/icon/footer-rs-school-js-logo.png" alt="RSSchool logo">           
+            </div>
+            <nav class="footer__nav df ai-c">
+              <div class="footer__nav__navigation tt-up fs-18 lh-22 fw-600">
+                <a href="index.html">About</a>
+                <a href="map.html">map</a>
+                <a href="#">Zoos</a>
+                <a href="contact.html">Contact us</a>
+              </div>            
+            </nav>
+            <button class="footer__nav__btn df ai-c jc-c">donate for volunteers<svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+              </svg></button>
+          </div>
+          <div class="footer__separator"></div>
+          <div class="footer__copyright df jc-sb">
+            <div class="footer__copyright__items df jc-sb ai-c">
+              <p>© 2021 DinaK</p>
+              <p>© Yem Digital</p>
+              <p>© RSSchool</p>
+            </div>
+            <div class="nav__social">
+              <a href="https://www.youtube.com/"><img src="assets/icon/YouTube-logo.png" alt="YouTube logo"></a>
+              <a href="https://www.instagram.com/?hl=ru"><img src="assets/icon/Instagram-logo.png" alt="Instagram logo"></a>
+              <a href="https://www.facebook.com/"><img src="assets/icon/Facebook-logo.png" alt="Facebook logo"></a>
+            </div>
+          </div>
+        </div>
+</main>
+
+</body>
+</html>

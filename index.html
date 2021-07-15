@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="stylelib.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+<title>online-zoo</title>
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper m0a df jc-sb">
+      <div class="header__logo"> <a href="#"><img src="assets/icon/header-logo.svg"></a></div>
+      <nav class="header__nav df ai-c">
+        <div class="header__nav__navigation df tt-up fs-18 lh-27 fw-600">
+          <a class="hovered" href="#">About</a>
+          <a href="map.html">map</a>
+          <a href="zoos-panda.html">Zoos</a>
+          <a href="contact.html">Contact us</a>
+          <a href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project">Design</a>
+        </div>
+        <div class="nav__social">
+          <a href="https://www.youtube.com/"><img src="assets/icon/YouTube-logo.png" alt="YouTube logo"></a>
+          <a href="https://www.instagram.com/?hl=ru"><img src="assets/icon/Instagram-logo.png" alt="Instagram logo"></a>
+          <a href="https://www.facebook.com/"><img src="assets/icon/Facebook-logo.png" alt="Facebook logo"></a>
+        </div>
+      </nav>
+    </div>    
+  </header>
+
+  <main>
+    <section class="main-page">
+      <div class=" wrapper m0a">
+        <div class="main-page__inner">
+          <h1>Online Zoo</h1>
+          <h2>Watch your favorite animal online</h2>
+          <p>Explore the exciting and mysterious world of wild animals in a natural setting without leaving your home.</p>
+          <button><p>VIEW LIVE CAM</p></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it-works">
+      <div class="wrapper m0a">
+        <div class="how-it-works__welcome df jc-sb ai-c">
+          <div class="how-it-works__text">
+            <h2>Welcome to the Online Zoo! </h2>
+            <p>On our website, using live webcams, fans of all ages can observe various animals. Among them, are Giant pandas, eagles, alligators, forest gorillas, African lions, and others. It is the whole natural world in real-time in front of our cameras. We hope you will enjoy watching closely and explore animals’ behavior and habitats! Note: animals are not always on view on cameras, so please check back if you don't see anything.</p>
+          </div>
+          <div class="how-it-works__image">
+            <img src="assets/howitworks-booth.jpg" alt="welcome booth image">
+          </div>
+        </div>
+        <div class="how-it-works__we-work df jc-sb ai-c">
+          <div class="how-it-works__image">
+            <img src="assets/howitworks-eagles.jpg" alt="eagles in the nest image">
+          </div>
+          <div class="how-it-works__text">
+            <h2>How we work</h2>
+            <p>Online Zoo is a nonprofit committed to inspiring awareness and preservation of nature and wild animals in our zoo and worldwide. Every day, our experts work to safeguard the health and wellness of the animals. To continue these efforts, we need your help. We're so grateful to our numerous supporters. All donations, large and small, go a long way to the conservation efforts of our pets.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-donate fc-FF">
+      <div class="wrapper m0a df jc-sb">
+        <div class="quick-donate__text">
+          <h3>Your donation makes a difference! </h3>
+          <p>The Online Zoo's animal webcams are some of the most famous on the internet. Tune in to watch your favourite animals — live, 24/7!</p>
+        </div>
+        <div class="quick-donate__form">
+          <h6>Quick Donate</h6>
+          <form action="#">
+            <input class="quick-donate__form__input" type="number" min="1" max="9999" placeholder="$ Donation Amount"><button class="quick-donate__form__submit" type="submit"><img src="assets/right-union.svg"></button>
+        </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="pets-in-zoo df fd-col">
+      <h2>meet some our Pets </h2>
+      <p>Do you have a special place in your heart for animals? Who are your favorites? Perhaps you'd like to donate to special ones or all our pets? We think it's important for you to choose how your donation is used. </p>
+      <div class="pets-in-zoo__slider">
+        <div class="pets-in-zoo__slider__rows m0a df jc-sb">
+          <button class="pets-in-zoo__slider__rows__row-left"></button>
+          <button class="pets-in-zoo__slider__rows__row-right"></button>
+        </div>
+
+        <div class="pets-in-zoo__slider__inner df">
+          <div class="pets-in-zoo__slider__inner__card-pair">   
+            <!-- Lucas   card     -->
+              <div onclick="location.href='zoos-panda.html'" class="pets-in-zoo__slider__inner__card df fd-col pos-rel df jc-sb" >
+              <div class="pets-in-zoo__slider__inner__card__name">
+                <h4>Lucas</h4>
+              </div>
+              <img src="assets/pets-in-zoo-lucas.jpg" alt="Panda image">
+              <div class="pets-in-zoo__slider__inner__card__dscr tac fc-FF">
+                <h5>Giant Panda</h5>
+                <p>Native to central China, giant pandas have come to symbolize vulnerable species.</p>
+                <div class="pets-in-zoo__slider__inner__card__dscr__view df jc-c"><a href="#">VIEW LIVE CAM </a><svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                  </svg></div>
+              </div>
+              </div>
+
+            <!-- Sam & Lora card -->
+            <div onclick="location.href='zoos-eagle.html'" class="pets-in-zoo__slider__inner__card df fd-col pos-rel df fd-col jc-sb ">
+            <div class="pets-in-zoo__slider__inner__card__name">
+              <h4>Sam & Lora</h4>
+            </div>
+            <img src="assets/pets-in-zoo-sam-lora.jpg" alt="eagles image">
+            <div class="pets-in-zoo__slider__inner__card__dscr fc-FF tac">
+              <h5>West End Bald Eagles</h5>
+              <p>Pair of eagle parents lay and protect eggs, feed their chicks and teach them to hunt and fly.</p>
+              <div class="pets-in-zoo__slider__inner__card__dscr__view df jc-c"><a href="#">VIEW LIVE CAM </a><svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                </svg></div>
+            </div>
+            </div>
+          </div>
+          <div class="pets-in-zoo__slider__inner__card-pair">  
+            <!-- Andy card -->        
+            <div onclick="location.href='zoos-lemur.html'" class="pets-in-zoo__slider__inner__card df fd-col pos-rel df fd-col jc-sb ">
+              <div class="pets-in-zoo__slider__inner__card__name">
+                <h4>Andy</h4>
+              </div>
+              <img src="assets/pets-in-zoo-andy.jpg" alt="Lemur image">
+              <div class="pets-in-zoo__slider__inner__card__dscr fc-FF tac">
+                <h5>Madagascarian Lemur</h5>
+                <p>Lemurs are considered the world’s most endangered group of mammals.</p>
+                <div class="pets-in-zoo__slider__inner__card__dscr__view df jc-c"><a href="#">VIEW LIVE CAM </a><svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                  </svg></div>
+              </div>
+            </div>
+
+            <!-- Liz card -->
+            <div onclick="location.href='#'" class="pets-in-zoo__slider__inner__card df fd-col pos-rel df fd-col jc-sb ">
+                <div class="pets-in-zoo__slider__inner__card__name">
+                  <h4>Liz</h4>
+                </div>
+                <img src="assets/pets-in-zoo-liz.jpg" alt="Koala image">
+                <div class="pets-in-zoo__slider__inner__card__dscr fc-FF tac">
+                  <h5>Australian Koala</h5>
+                  <p>The elevated walkways bring you to eye level with the koalas as they perch in their forest.</p>
+                  <div class="pets-in-zoo__slider__inner__card__dscr__view df jc-c"><a href="#">VIEW LIVE CAM </a><svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                    </svg></div>
+                </div>
+            </div>
+          </div>
+          <div class="pets-in-zoo__slider__inner__card-pair"> 
+
+            <!-- Glen card         -->
+            <div onclick="location.href='zoos-gorilla.html'" class="pets-in-zoo__slider__inner__card df fd-col pos-rel df fd-col jc-sb ">
+            <div class="pets-in-zoo__slider__inner__card__name">
+              <h4>Glen</h4>
+            </div>
+            <img src="assets/pets-in-zoo-glen.jpg" alt="Monkey image">
+            <div class="pets-in-zoo__slider__inner__card__dscr fc-FF tac">
+              <h5>Gorilla in Congo </h5>
+              <p>Variety of snacks very important for the healthy life of gorillas and his plenty of babies.</p>
+              <div class="pets-in-zoo__slider__inner__card__dscr__view df jc-c"><a href="#">VIEW LIVE CAM </a><svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                </svg></div>
+            </div>
+            </div>
+
+            <!-- Shake card -->
+            <div onclick="location.href='#'" class="pets-in-zoo__slider__inner__card df fd-col pos-rel df fd-col jc-sb ">
+            <div class="pets-in-zoo__slider__inner__card__name">
+              <h4>Shake</h4>
+            </div>
+            <img src="assets/pets-in-zoo-shake.jpg" alt="Lion image">
+            <div class="pets-in-zoo__slider__inner__card__dscr fc-FF tac">
+              <h5>African Lion</h5>
+              <p>Lions roam the savannas and grasslands of Africa, hunting and raising cubs in the pride.</p>
+              <div class="pets-in-zoo__slider__inner__card__dscr__view df jc-c"><a href="#">VIEW LIVE CAM </a><svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                </svg></div>
+            </div>
+            </div>
+          </div>
+          <div class="pets-in-zoo__slider__inner__card-pair">          
+            <div onclick="location.href='#'" class="pets-in-zoo__slider__inner__card df fd-col pos-rel df fd-col jc-sb ">
+            <div class="pets-in-zoo__slider__inner__card__name">
+              <h4>Mike</h4>
+            </div>
+            <img src="assets/pets-in-zoo-mike.jpg" alt="Alligator image">
+            <div class="pets-in-zoo__slider__inner__card__dscr fc-FF tac">
+              <h5>Chinese Alligator
+              </h5>
+              <p>From nose to tail, belly to back, hard scales protect this petite alligator.</p>
+              <div class="pets-in-zoo__slider__inner__card__dscr__view df jc-c"><a href="#">VIEW LIVE CAM </a><svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                </svg></div>
+            </div>
+            </div>
+
+            <div onclick="location.href='#'" class="pets-in-zoo__slider__inner__card df fd-col pos-rel df fd-col jc-sb ">
+            <div class="pets-in-zoo__slider__inner__card__name">
+              <h4> Senja</h4>
+            </div>
+            <img src="assets/pets-in-zoo-senja.jpg" alt="Alligator image">
+            <div class="pets-in-zoo__slider__inner__card__dscr fc-FF tac">
+              <h5>Sumatran Tiger</h5>
+              <p>Sumatran Tigers are the smallest of the five sub-species, and are found in Indonesia.</p>
+              <div class="pets-in-zoo__slider__inner__card__dscr__view df jc-c"><a href="#">VIEW LIVE CAM </a><svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                </svg></div>
+            </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- choose your favourite btn -->
+      <button class="choose-your-favourite-btn m0a df ai-c jc-c">choose your favourite <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+        </svg></button>
+    </section>
+
+    <section class="pay-and-feed fc-FF">
+      <div class="pay-and-feed__inner wrapper m0a df fd-col">
+        <h2>PAY AND FEED</h2>
+        <div class="pay-and-feed__inner__block df jc-sb ai-c">
+          <p>01</p>
+          <div class="pay-and-feed__inner__block__separator"></div>
+        </div>
+        <div class="pay-and-feed__inner__block__dscr df">
+          <div class="pay-and-feed__inner__block__dscr__img-1">
+          </div>
+          <div class="pay-and-feed__inner__block__dscr__text">
+            <img src="assets/pay-heart.png">
+            <h4>Your donation has an impact</h4>
+            <p>Providing our animals with high-quality nutritious diets is just one element of animal care at our Zoo. We do all the best so that our animals can eat food similar to what they might find in their natural habitats while making sure they get the right mix of nutrients, proteins, and vitamins to be happy and healthy. Please help us provide nutritious food for our animals by donating. The generosity of people like you can help us make sure that our animals enjoy good food that keeps them in great condition.</p>
+          </div>
+        </div>
+
+        <div class="pay-and-feed__inner__block df jc-sb ai-c">
+          <p>02</p>
+          <div class="pay-and-feed__inner__block__separator"></div>
+        </div>
+        <div class="pay-and-feed__inner__block__dscr df">
+          <div class="pay-and-feed__inner__block__dscr__img-2">
+          </div>
+          <div class="pay-and-feed__inner__block__dscr__text">
+            <img src="assets/pay-donate.png">
+            <h4>Make a donation</h4>
+            <p>You can donate through your credit card without any fees. It is easy and safe. We do not keep donors' personal information on an online network. Choose an amount to give and the pet's name if needed. One of the most effective ways you can give is by making regular donations.</p>
+          </div>
+        </div>
+
+        <div class="pay-and-feed__inner__block df jc-sb ai-c">
+          <p>03</p>
+          <div class="pay-and-feed__inner__block__separator"></div>
+        </div>
+        <div class="pay-and-feed__inner__block__dscr df">
+          <div class="pay-and-feed__inner__block__dscr__img-3">
+          </div>
+          <div class="pay-and-feed__inner__block__dscr__text">
+            <img src="assets/pay-food.png">
+            <h4>Bring your food charity — straight to your favorites pets.</h4>
+            <p>After your donation, the animal receives its favorite foods. You can support your favorite animals or any animal you care about and make a real personal impact. Never doubt that your donation can make a difference even if it is small. </p>
+          </div>
+        </div>
+
+        <div class="pay-and-feed__inner__btn ">
+          <button><p>donate now</p></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="user-think">
+      <div class="user-think__wrapp df">
+      <div class="user-think__text fc-FF">
+        <h2>what our users think</h2>
+        <p>We are continuously striving to improve the experiences of our future guests. Below you can leave your own feedback, or simply view feedback from past clients. </p>
+      </div>
+      <div class="user-think__feedbacks df jc-sb">
+        <div class="user-think__feedbacks__pair df fd-col jc-sb">
+          <div class="user-think__feedbacks__card">
+            <p><span class="user-think__feedbacks__card__qoutes">“</span></p>
+            <h4>New Jersey, June 2020</h4>
+            <p>I am writing to thank you for your mission is to bring people closer to nature! Like myself, children were very impressed by the opportunity to explore the life of incredible animals in real-time. </p>
+            <h6>Karen Maithlan</h6>
+          </div>
+
+          <div class="user-think__feedbacks__card">
+            <p><span class="user-think__feedbacks__card__qoutes">“</span></p>
+            <h4>London, February 2020</h4>
+            <p>A fantastic experience for kids and adults alike! If anyone is looking for an attraction that educates people on wild animals – it's for you! I highly recommend seeing for yourself the variety of animals on your screen.</p>
+            <h6>C. Stockman</h6>
+          </div>
+        </div>
+
+        <div class="user-think__feedbacks__pair">
+          <div class="user-think__feedbacks__card">
+            <p><span class="user-think__feedbacks__card__qoutes">“</span></p>
+            <h4>Toronto, November 2020</h4>
+            <p>We so enjoy the ever-evolving selection of animals from around the globe. THANK YOU for sharing these fascinating animal friends with us so that we may learn and increase our understanding of the animal kingdom.</p>
+            <h6>Carol Larsen</h6>
+          </div>
+
+          <div class="user-think__feedbacks__card">
+            <p><span class="user-think__feedbacks__card__qoutes">“</span></p>
+            <h4>Amsterdam, June 2020</h4>
+            <p>I want to thank you for the amazing sites you find to put your cameras to let each of us see things that we would probably never see on our own. There are so many positives on Zoo Online and I'm grateful for it. Thank you so much!</p>
+            <h6>Tomas Ray</h6>
+          </div>
+        </div>        
+      </div>
+    </div>
+      <div class="user-think__feedbacks__slider__rows m0a df jc-sb">
+        <button class="user-think__feedbacks__slider__rows__row-left"></button>
+        <button class="user-think__feedbacks__slider__rows__row-right"></button>
+      </div>
+      <button class="user-think__feedback-btn df ai-c jc-c">leave feedback<svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+        </svg></button>
+    </section>
+
+    <section class="care">
+      <div class="wrapper m0a df fd-col tac">      
+        <h2>care for the animals you love </h2>
+        <p class="care__subheader">You can help to look after the animals you love with your gift today.</p>
+
+        <div class="care__cards df jc-sb fw-w">
+          <img class="care__img" src="assets/choose-koala.jpg" alt="koala eat">
+          <!-- Panda card -->
+          <div onclick="location.href='zoos-panda.html'" class="care__cards__card">              
+              <img src="assets/choose-panda.jpg" alt="Panda eat">
+              <div class="care__cards__card__dscr df fd-col jc-sb">
+                <p>Your $30 could give Lucas <br> a slice of panda cake, made with our secret recipe.</p>
+                <div class="care__cards__card__dscr__view df jc-c"><a href="#">feed </a><svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                  </svg></div>
+              </div>
+          </div>          
+          <!-- Tiger card -->
+          <div onclick="location.href='#'" class="care__cards__card">              
+            <img src="assets/choose-tiger.jpg" alt="Tiger eat">
+            <div class="care__cards__card__dscr df fd-col jc-sb">
+              <p>Your $150 will help to care for Senja, <br> a Sumatran tiger, for three weeks.</p>
+              <div class="care__cards__card__dscr__view df jc-c"><a href="#">feed </a><svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                </svg></div>
+            </div>
+          </div>
+          <!-- Lemur card -->
+          <div onclick="location.href='zoos-lemur.html'" class="care__cards__card">              
+            <img src="assets/choose-lemur.jpg" alt="Lemur eat">
+            <div class="care__cards__card__dscr df fd-col jc-sb">
+            <p>With your support, we can give Andy his favorite fruits. Especially when it's not fruit season in its natural habitat.</p>
+            <div class="care__cards__card__dscr__view df jc-c"><a href="#">feed </a><svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+              </svg></div>
+            </div>
+          </div>          
+          <!-- eagl card -->
+          <div onclick="location.href='zoos-eagle.html'" class="care__cards__card">              
+            <img src="assets/choose-eagle.jpg" alt="Eagls eat">
+            <div class="care__cards__card__dscr df fd-col jc-sb">
+            <p>Sam & Lora have hatched and raised numerous young and will be happy with your help.</p>
+            <div class="care__cards__card__dscr__view df jc-c"><a href="#">feed </a><svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+              </svg></div>
+            </div>
+          </div>
+        </div>
+        <!-- choose your favourite btn -->
+        <button class="choose-your-favourite-btn m0a df ai-c jc-c">choose your favourite <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+          </svg></button>
+
+          <div class="dont-eat-me"></div>
+      </div>      
+    </section>
+
+    <footer class="footer">
+      <div class="wrapper m0a df fd-col">
+        <div class="footer__nav df jc-sb ai-c">
+          <div class="footer__nav__logos df jc-sb">
+            <a href="#"><img src="assets/icon/footer-logo.svg" alt="online-zoo logo"></a>
+            <img  title="Yem Digital" src="assets/icon/footer-Yem Digital- logo.png" alt="Yem Digital logo">
+            <img title="Rolling Scopes School" src="assets/icon/footer-rs-school-js-logo.png" alt="RSSchool logo">           
+          </div>
+          <nav class="footer__nav df ai-c">
+            <div class="footer__nav__navigation tt-up fs-18 lh-22 fw-600">
+              <a href="#">About</a>
+              <a href="map.html">map</a>
+              <a href="zoos-panda.html">Zoos</a>
+              <a href="contact.html">Contact us</a>
+            </div>            
+          </nav>
+          <button class="footer__nav__btn df ai-c jc-c">donate for volunteers<svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+            </svg></button>
+        </div>
+        <div class="footer__separator"></div>
+        <div class="footer__copyright df jc-sb">
+          <div class="footer__copyright__items df jc-sb ai-c">
+            <p>© 2021 DinaK</p>
+            <p>© Yem Digital</p>
+            <p>© RSSchool</p>
+          </div>
+          <div class="nav__social">
+            <a href="https://www.youtube.com/"><img src="assets/icon/YouTube-logo.png" alt="YouTube logo"></a>
+            <a href="https://www.instagram.com/?hl=ru"><img src="assets/icon/Instagram-logo.png" alt="Instagram logo"></a>
+            <a href="https://www.facebook.com/"><img src="assets/icon/Facebook-logo.png" alt="Facebook logo"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

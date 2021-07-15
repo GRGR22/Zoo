@@ -1,0 +1,251 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1920px;
+}
+.header {
+    width: 100%;
+    background: #F58021;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.wrapper {
+    max-width: 1400px;
+    width: 100%;
+}
+.header__nav__navigation>a {
+    color: black;
+}
+.header__nav__navigation>a:hover, .header__nav__navigation>.hovered {
+    color: #00A092;
+}
+.header__nav__navigation>a:not(:last-child) {
+    padding-right: 48px;
+}
+.header__nav__navigation {
+    margin-right: 65px;
+}
+.nav__social>a:not(:last-child) {
+    padding-right: 32px;
+}
+.nav__social>a>img:hover {    
+    transform: scale(1.25);
+    transition: all .15s ease-in-out;
+}
+.main-page__inner {    
+    width: 100%;
+}
+.main-page__inner>h1 {
+    font-size: 1px;
+}
+.main-page__inner>h2 {
+    width: 43%;
+    padding-top: 36px;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #20113D;
+}
+.main-page__inner>img {
+    padding: 69px 0 150px;
+}
+.main-page__inner__marker-1 { 
+    background: url(assets/map/Animal-Location.png) no-repeat center ;
+    width: 160px;
+    height: 204px;
+    top: 47%;
+    left: 18%;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 30px rgba(245, 128, 33, 0.7));
+}
+.main-page__inner__marker-1:hover { 
+    background: url(assets/map/Animal-Location-hover.png);
+    background-position: 10px 17px;
+}
+.main-page__inner__marker-1__alligator {
+background: url(assets/map/Alligator.png) no-repeat 50% 39%;
+    width: 160px;
+    height: 204px;
+}
+.main-page__inner__marker-2 { 
+    background: url(assets/map/Animal-Location.png) no-repeat center;
+    width: 160px;
+    height: 204px;
+    top: 46%;
+    left: 9.3%;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 30px rgba(245, 128, 33, 0.7));
+}
+.main-page__inner__marker-2:hover { 
+    background: url(assets/map/Animal-Location-hover.png);
+    background-position: 10px 17px;
+}
+.main-page__inner__marker-2__eagle {
+background: url(assets/map/Eagle.png) no-repeat 50% 39%;
+    width: 160px;
+    height: 204px;
+}
+.main-page__inner__marker-3 { 
+    background: url(assets/map/Animal-Location.png) no-repeat center;
+    width: 160px;
+    height: 204px;
+    top: 51%;
+    left: 38.5%;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 30px rgba(245, 128, 33, 0.7));
+}
+.main-page__inner__marker-3:hover { 
+    background: url(assets/map/Animal-Location-hover.png);
+    background-position: 10px 17px;
+}
+.main-page__inner__marker-3__lion {
+background: url(assets/map/Lion.png) no-repeat 50% 39%;
+    width: 160px;
+    height: 204px;
+}
+.main-page__inner__marker-4 { 
+    background: url(assets/map/Animal-Location.png) no-repeat center;
+    width: 160px;
+    height: 204px;
+    top: 52.8%;
+    left: 46.6%;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 30px rgba(245, 128, 33, 0.7));
+}
+.main-page__inner__marker-4:hover { 
+    background: url(assets/map/Animal-Location-hover.png);
+    background-position: 10px 17px;
+}
+.main-page__inner__marker-4__gorilla {
+background: url(assets/map/Gorilla.png) no-repeat 50% 39%;
+    width: 160px;
+    height: 204px;
+}
+.main-page__inner__marker-5 { 
+    background: url(assets/map/Animal-Location.png) no-repeat center;
+    width: 160px;
+    height: 204px;
+    top: 62%;
+    left: 54.2%;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 30px rgba(245, 128, 33, 0.7));
+}
+.main-page__inner__marker-5:hover { 
+    background: url(assets/map/Animal-Location-hover.png);
+    background-position: 10px 17px;
+}
+.main-page__inner__marker-5__lemur {
+background: url(assets/map/Lemur.png) no-repeat 50% 39%;
+    width: 160px;
+    height: 204px;
+}
+.main-page__inner__marker-6 { 
+    background: url(assets/map/Animal-Location.png) no-repeat center;
+    width: 160px;
+    height: 204px;
+    top: 43%;
+    left: 65.2%;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 30px rgba(245, 128, 33, 0.7));
+}
+.main-page__inner__marker-6:hover { 
+    background: url(assets/map/Animal-Location-hover.png);
+    background-position: 10px 17px;
+}
+.main-page__inner__marker-6__panda {
+background: url(assets/map/Panda.png) no-repeat 50% 39%;
+    width: 160px;
+    height: 204px;
+}
+.main-page__inner__marker-7 { 
+    background: url(assets/map/Animal-Location.png) no-repeat center;
+    width: 160px;
+    height: 204px;
+    top: 55%;
+    left: 69.8%;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 30px rgba(245, 128, 33, 0.7));
+}
+.main-page__inner__marker-7:hover { 
+    background: url(assets/map/Animal-Location-hover.png);
+    background-position: 10px 17px;
+}
+.main-page__inner__marker-7__tiger {
+background: url(assets/map/tiger.png) no-repeat 50% 39%;
+    width: 160px;
+    height: 204px;
+}
+.main-page__inner__marker-8 { 
+    background: url(assets/map/Animal-Location.png) no-repeat center;
+    width: 160px;
+    height: 204px;
+    top: 64%;
+    left: 79%;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 30px rgba(245, 128, 33, 0.7));
+}
+.main-page__inner__marker-8:hover { 
+    background: url(assets/map/Animal-Location-hover.png);
+    background-position: 10px 17px;
+}
+.main-page__inner__marker-8__coala {
+background: url(assets/map/Coala.png) no-repeat 50% 39%;
+    width: 160px;
+    height: 204px;
+}
+
+.footer {
+    padding: 70px 0 35px;
+    background: #20113D;
+}
+.footer__nav__logos {
+    width: 30.5%;
+    height: 58px;
+}
+.footer__nav__navigation>a {
+    color: #FFFFFF;
+}
+.footer__nav__navigation>a:hover {
+    color: #00A092;
+}
+.footer__nav__navigation>a:not(:last-child) {
+    padding-right: 44px;
+}
+.footer__separator {
+    width: 100%;
+    margin: 70px 0 37px;
+    height: 1px;
+    border-top: 1px solid #FFFFFF;
+}
+.footer__nav__btn {
+    width: 359px;
+    height: 74px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: transparent;
+    cursor: pointer;    
+}
+.footer__nav__btn>svg{
+    fill: #FFFFFF;
+    padding-left: 10px;
+}
+.footer__nav__btn:hover {
+    color: #20113D;
+    background: #FFFFFF;
+}
+.footer__nav__btn:hover svg{
+    fill: #20113D;    
+}
+.footer__copyright__items {
+    width: 32%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,120 @@
+a {
+    text-decoration: none;
+}
+.m0a {
+    margin: 0 auto;
+}
+.tac {
+    text-align: center;
+}
+.tdn {
+    text-decoration: none;
+}
+.df {
+    display: flex;
+}
+.fw-w {
+    flex-wrap: wrap;
+}
+.fd-col {
+    flex-direction: column;
+}
+.jc-sb {
+    justify-content: space-between;
+}
+.jc-sa {
+    justify-content: space-around;
+}
+.jc-fs {
+    justify-content: flex-start;
+}
+.jc-fe {
+    justify-content: flex-end;
+}
+.jc-c {
+    justify-content: center;
+}
+.ai-s {
+    align-items: flex-start;
+}
+.ai-c {
+    align-items: center;
+}
+.ai-e {
+    align-items: flex-end;
+}
+.pos-rel {
+    position: relative;
+}
+.pos-abs {
+    position: absolute;
+}
+.tt-up {
+    text-transform: uppercase;
+}
+.fw-800 {
+    font-weight: 800;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fs-82 {
+    font-size: 82px;
+}
+.fs-54 { 
+    font-size: 54px;
+}
+.fs-42 {
+    font-size: 42px;
+}
+.fs-26 {
+    font-size: 26px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.lh-100 {
+    line-height: 100px;
+}
+.lh-66 {
+    line-height: 66px;
+}
+.lh-51 {
+    line-height: 51px;
+}
+.lh-34 {
+    line-height: 34px;
+}
+.lh-27 {
+    line-height: 27px;
+}
+.lh-23 {
+    line-height: 23px;
+}
+.lh-22 {
+    line-height: 22px;
+}
+.ls-01 {
+    letter-spacing: 0.01em;
+}
+.fc-FF {
+    color: #FFFFFF;
+}
+.fc-00 {
+    color: #000000;
+}
+.fc-92 {
+    color: #00A092;
+}
+.fc-21 {
+    color: #F58021;
+}
+.fc-3D {
+    color: #20113D;;
+}
